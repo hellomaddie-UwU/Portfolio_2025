@@ -5,3 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+#hero-banner {height: 400px;}
+
+#badge {height: 200px; width: 200px;}
+
+.card-article {height: 730px; width: 500px; margin-bottom: 400px;}
+
+.article-img-container {height: 250px; width: 100%;}

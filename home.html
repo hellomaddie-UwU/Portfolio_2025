@@ -20,36 +20,78 @@
 
     <body>
         <!--Hero Banner START-->
-        <section id="home-hero-banner" class="py-4 bg-body-tertiary">
+        <section id="home-hero-banner" class="pt-4 pb-5 bg-body-tertiary">
             <div class="container">
                 <!--Nav Bar START-->
                 <div class="bg-light-subtle pt-3 pb-3 px-5 d-flex justify-content-between align-items-center border border-secondary rounded-pill">
                     <h5>Logo</h5>
                     <div class="nav-menu d-flex align-items-center">
-                        <a href="#">Home</a>
-                        <a class="ms-4" href="#">Featured Works +</a>
-                        <a class="ms-4" href="#">Gallery</a>
-                        <a class="ms-4" href="#">About Me</a>
-                        <a class="btn btn-primary ms-4" href="#" role="button">Contact Me</a>
-                        <a class="btn btn-outline-secondary ms-2" href="#" role="button">Download CV</a>
+                        <a class="text-decoration-none" href="#">Home</a>
+                        <a class="ms-4 text-decoration-none" href="#">Featured Works +</a>
+                        <a class="ms-4 text-decoration-none" href="#">Gallery</a>
+                        <a class="ms-4 text-decoration-none" href="#">About Me</a>
+                        <a class="btn btn-primary ms-4 rounded-pill px-4" href="#" role="button">Contact Me</a>
+                        <a class="btn btn-outline-secondary ms-2 rounded-pill px-4" href="#" role="button">Download CV</a>
                     </div>
                 </div>
                 <!--Nav Bar END-->
-                <div class="bg-warning-subtle mt-4 text-center"> <p>Hero Banner</p></div>
+
+                <!--Slideshow START-->
+                <div id="hero-banner" class="bg-warning-subtle mt-4 text-center d-flex align-items-center justify-content-center"> <p>Hero Banner</p></div>
+                <!--Slideshow END-->
+
+                <!--Job Title START-->
+                <div class="text-center">
+                    <p>Maddie</p>
+                    <H3>A Multidisciplinary Designer Specializing in UX/UI Design</H3>
+                </div>
+                <!--Job Title END-->
             </div>
         </section>
         <!--Hero Banner END-->
 
         <!--Client Carousel START-->
         <section id="client-carousel" class="py-5 bg-body-secondary">
-            <div class="bg-warning-subtle text-center"> <p>Client Carousel</p></div>
+            <div class="bg-warning-subtle text-center position-absolute container-fluid" style="top:780px;">        
+                <p>Client Logo Carousel</p>
+            </div>
+
+            <!--Badge START-->
+            <div class="container">
+                <div id="badge" class="bg-dark-subtle d-flex align-items-center justify-content-center position-relative" style="z-index: 1;">Badge</div>
+            </div>
+            <!--Badge END-->
         </section>
         <!--Client Carousel END-->
 
         <!--Featured Works START-->
         <section id="home-featured-works" class="py-5 bg-dark-subtle">
             <div class="container">
-                <div class="bg-warning-subtle text-center"> <p>Featured Works</p></div>
+                <h3 class="text-center mb-5">Featured Works</h3>
+                <div class="row">
+                    <div class="col">
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                </div>
+                <div class="col" style="padding-top: 400px;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="card-article bg-body-secondary"></div>
+                    </div>
+                </div>
+                </div>
             </div>
         </section>
         <!--Featured Works END-->
@@ -57,7 +99,21 @@
         <!--About START-->
         <section id="home-about-me" class="py-5 bg-body-secondary">
             <div class="container">
-                <div class="bg-warning-subtle text-center"> <p>About Me</p></div>
+                <h3 class="mb-4">Meet the Designer</h3>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col"><p>hobies</p></div>
+                            <div class="col"><p>software</p></div>
+                        </div>
+                        <div class="row"><p>employment history</p></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row"><p>contacts</p></div>
+                        <div class="row"><p>download buttons</p></div>
+                        <div class="row"><p>what's in my bag</p></div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--About END-->
@@ -73,7 +129,24 @@
         <!--Blog Plug-In START-->
         <section id="blog-plug-in" class="py-5 bg-dark-subtle">
             <div class="container">
-                <div class="bg-warning-subtle text-center"> <p>Blog Plug-In</p></div>
+                <h3 class="text-center mb-4">Blog</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="article-img-container bg-body-tertiary"></div>
+                        <p>MM DD YYYY</p>
+                        <h5>Title</h5>
+                    </div>
+                    <div class="col">
+                        <div class="article-img-container bg-body-tertiary"></div>
+                        <p>MM DD YYYY</p>
+                        <h5>Title</h5>
+                    </div>
+                    <div class="col">
+                        <div class="article-img-container bg-body-tertiary"></div>
+                        <p>MM DD YYYY</p>
+                        <h5>Title</h5>
+                    </div>
+                </div>
             </div>
         </section>
         <!--Blog Plug-In END-->
@@ -81,7 +154,7 @@
         <!--CTA Banner and CV Download START-->
         <section id="Call-to-Action" class="py-5 bg-body-secondary">
             <div class="container">
-                <div class="bg-warning-subtle text-center"> <p>CTA Banne & Download Button</p></div>
+                <div class="bg-warning-subtle text-center"> <p>CTA Banner & Download Button</p></div>
             </div>
         </section>
         <!--CTA Banner and CV Download END-->
@@ -89,7 +162,18 @@
         <!--Footer START-->
         <footer class="py-5">
             <div class="container">
-                <div class="bg-warning-subtle text-center"> <p>Footer</p></div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col"><p>logo and summary</p></div>
+                            <div class="col"><p>footer menu</p></div>
+                            <div class="col"><p>social media icons</p></div>
+                        </div>
+                        <div class="row"><p>image</p></div>
+                        <div class="row"><p>privacy policy, terms and conditions, and made with love</p></div>
+                    </div>
+                    <div class="col-4"><p>form</p></div>
+                </div>
             </div>
         </footer>
         <!--Footer END-->
