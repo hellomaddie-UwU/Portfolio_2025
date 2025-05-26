@@ -5,11 +5,32 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {font-family: "Poppins", sans-serif;}
+h2,h3 {line-height: 36px;}
+
+h1 {font-size: 47px; line-height: 60px;}
+h2 {font-size: 41px; line-height: 48px;}
+h3 {font-size: 36px;}
+h4 {font-size: 31px;}
+h5 {font-size: 26px; line-height: 32px;}
+h6 {font-size: 20px; line-height: 28px;}
+
+.p-md {font-size: 14px; line-height: 23px;}
+.p-sm {font-size: 13px; line-height: 20px;}
 
 #hero-banner {height: 400px;}
 
-#badge {height: 200px; width: 200px;}
+#badge {
+    height: 200px; 
+    width: 200px;
+}
 
-.card-article {height: 730px; width: 500px; margin-bottom: 400px;}
+.card-article {
+    height: 730px; 
+    width: 500px; 
+    margin-bottom: 400px;
+}
 
-.article-img-container {height: 250px; width: 100%;}
+.article-img-container {
+    height: 250px; 
+    width: 100%;
+}
