@@ -26,21 +26,21 @@
         <section id="home-hero-banner" class="pt-4 pb-5 bg-body-tertiary">
             <div class="container">
                 <!--Nav Bar START-->
-                <div class="bg-light-subtle pt-3 pb-3 px-5 d-flex justify-content-between align-items-center border border-secondary rounded-pill">
-                    <h5>Logo</h5>
+                <div class="pt-3 pb-3 px-5 d-flex justify-content-between align-items-center border bg-dark rounded-pill">
+                    <img src="imgs/hellomaddie-white-logo.svg">
                     <div class="nav-menu d-flex align-items-center">
-                        <a class="text-decoration-none" href="#">Home</a>
-                        <a class="ms-4 text-decoration-none" href="#">Featured Works +</a>
-                        <a class="ms-4 text-decoration-none" href="#">Gallery</a>
-                        <a class="ms-4 text-decoration-none" href="#">About Me</a>
-                        <a class="btn btn-primary ms-4 rounded-pill px-4" href="#" role="button">Contact Me</a>
-                        <a class="btn btn-outline-secondary ms-2 rounded-pill px-4" href="#" role="button">Download CV</a>
+                        <a class="text-decoration-none text-light" href="#">Home</a>
+                        <a class="ms-4 text-decoration-none text-light" href="#">Featured Works +</a>
+                        <a class="ms-4 text-decoration-none text-light" href="#">Gallery</a>
+                        <a class="ms-4 text-decoration-none text-light" href="#">About Me</a>
+                        <a class="btn btn-light ms-4 rounded-pill px-4" href="#" role="button">Contact Me</a>
+                        <a class="btn btn-outline-light ms-2 rounded-pill px-4" href="#" role="button">Download CV</a>
                     </div>
                 </div>
                 <!--Nav Bar END-->
 
                 <!--Slideshow START-->
-                <div id="hero-banner" class="bg-warning-subtle mt-4 text-center d-flex align-items-center justify-content-center"> <p>Hero Banner</p></div>
+                <div id="hero-banner" class="bg-warning-subtle mt-4 text-center d-flex align-items-center justify-content-center"> <p>Hero Banner Placeholder<br>This could be a lottie file on loop</p></div>
                 <!--Slideshow END-->
 
                 <!--Job Title START-->
@@ -55,13 +55,19 @@
 
         <!--Client Carousel START-->
         <section id="client-carousel" class="py-5 bg-body-secondary">
-            <div class="bg-warning-subtle text-center position-absolute container-fluid" style="top:780px;">        
-                <p>Client Logo Carousel</p>
+            <div class="bg-warning-subtle text-center position-absolute w-100 py-3" style="top:780px; rotate: 8deg;">        
+                <p>Client Logo Carousel Placeholder</p>
+            </div>
+
+            <div class="bg-warning-subtle text-center position-absolute w-100 py-3" style="top:780px; rotate: -8deg;">        
+                <p>Client Logo Carousel Placeholder</p>
             </div>
 
             <!--Badge START-->
             <div class="container">
-                <div id="badge" class="bg-dark-subtle d-flex align-items-center justify-content-center position-relative" style="z-index: 1;">Badge</div>
+                <div id="badge" class="position-relative" style="z-index: 1; left: 44%;">
+                    <img src="imgs/bunny-badge.svg">
+                </div>
             </div>
             <!--Badge END-->
         </section>
@@ -100,21 +106,54 @@
         <!--Featured Works END-->
 
         <!--About START-->
-        <section id="home-about-me" class="py-5 bg-body-secondary">
+        <section id="home-about-me" class="pt-3 pb-5 bg-body-secondary">
+            <img class="mb-3 w-100" src="imgs/flower-border-placeholder.svg">
             <div class="container">
-                <h3 class="mb-4">Meet the Designer</h3>
+                <h3 class="my-4">Meet the Designer</h3>
                 <div class="row">
                     <div class="col-8">
-                        <div class="row">
-                            <div class="col"><p>hobies</p></div>
-                            <div class="col"><p>software</p></div>
+                        <div class="d-flex justify-content-between mb-4">
+                            <div class="col-8" style="width: 50%;">
+                                <div class="row"><p>hobbies<br>Image Placeholder</p></div>
+                                <div class="row border p-4">
+                                    <h5 class="mb-3">What's I'm Currently Doing</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem nesciunt corporis ad repellendus earum quasi deleniti deserunt nobis totam eius minima ullam nostrum atque esse pariatur, dolor ipsam quaerat inventore?</p>
+                                </div>
+                            </div>
+                            <div class="col-4 border p-4">
+                                <h5>Software & Tools</h5>
+                            </div>
                         </div>
-                        <div class="row"><p>employment history</p></div>
+                        <div class="row border p-4">
+                            <h5 class="mb-3">Employment History</h5>
+                            <div class="d-flex">
+                                <h5 class="me-2">00</h5>
+                                <p>title</p>
+                            </div>
+                            <div class="d-flex">
+                                <h5 class="me-2">00</h5>
+                                <p>title</p>
+                            </div>
+                            <div class="d-flex">
+                                <h5 class="me-2">00</h5>
+                                <p>title</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <div class="row"><p>contacts</p></div>
-                        <div class="row"><p>download buttons</p></div>
-                        <div class="row"><p>what's in my bag</p></div>
+                        <div class="row border p-4 mb-4">
+                            <h5 class="mb-3">Contacts</h5>
+                            <p>bmlmaddela@gmail.com</p><br>
+                            <p>(+63) 917-567-0049</p><br>
+                            <p>Metro Manila, PH</p>
+                        </div>
+                        <div class="row p-4 mb-4">
+                            <a class="btn btn-primary mb-2" href="#">Download Resume</a>
+                            <a class="btn btn-outline-primary" href="#">Download CV</a>
+                        </div>
+                        <div class="row">
+                            <p>what's in my bag <br> Image Placeholder</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,6 +163,7 @@
         <!--Illustration Gallery START-->
         <section id="home-illustration-gallery" class="py-5 bg-body-tertiary">
             <div class="container">
+                <h3 class="my-4 text-center">Illustration Gallery</h3>
                 <div class="bg-warning-subtle text-center"> <p>Illustration Gallery</p></div>
             </div>
         </section>
@@ -135,17 +175,17 @@
                 <h3 class="text-center mb-4">Blog</h3>
                 <div class="row">
                     <div class="col">
-                        <div class="article-img-container bg-body-tertiary"></div>
+                        <div class="article-img-container bg-body-tertiary mb-2"></div>
                         <p>MM DD YYYY</p>
                         <h5>Title</h5>
                     </div>
                     <div class="col">
-                        <div class="article-img-container bg-body-tertiary"></div>
+                        <div class="article-img-container bg-body-tertiary mb-2"></div>
                         <p>MM DD YYYY</p>
                         <h5>Title</h5>
                     </div>
                     <div class="col">
-                        <div class="article-img-container bg-body-tertiary"></div>
+                        <div class="article-img-container bg-body-tertiary mb-2"></div>
                         <p>MM DD YYYY</p>
                         <h5>Title</h5>
                     </div>
@@ -163,13 +203,27 @@
         <!--CTA Banner and CV Download END-->
 
         <!--Footer START-->
-        <footer class="py-5">
+        <footer class="py-5 bg-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-8">
-                        <div class="row">
-                            <div class="col"><p>logo and summary</p></div>
-                            <div class="col"><p>footer menu</p></div>
+                        <div class="row text-light">
+                            <div class="col">
+                                <p>
+                                    Logo
+                                    <br>
+                                    Based in the PH, I’m a self-taught Senior UX/UI Designer who loves mixing painterly illustrations with UX Design.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h6>Menu</h6>
+                                <ul>
+                                    <li><a class="text-decoration-none text-light" href="#">Link</a></li>
+                                    <li><a class="text-decoration-none text-light" href="#">Link</a></li>
+                                    <li><a class="text-decoration-none text-light" href="#">Link</a></li>
+                                    <li><a class="text-decoration-none text-light" href="#">Link</a></li>
+                                </ul>
+                            </div>
                             <div class="col"><p>social media icons</p></div>
                         </div>
                         <div class="row"><p>image</p></div>
