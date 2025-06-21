@@ -11,11 +11,21 @@ h1 {font-size: 47px; line-height: 60px;}
 h2 {font-size: 41px; line-height: 48px;}
 h3 {font-size: 36px;}
 h4 {font-size: 31px;}
-h5 {font-size: 26px; line-height: 32px;}
+h5 {font-size: 26px; line-height: 32px; font-weight: 400;}
 h6 {font-size: 20px; line-height: 28px;}
+
+p {margin-bottom: 0px;}
 
 .p-md {font-size: 14px; line-height: 23px;}
 .p-sm {font-size: 13px; line-height: 20px;}
+
+/*Custom Spacing START*/
+.spacing-2 {margin-bottom: 8px;}
+.spacing-8 {margin-bottom: 32px;}
+.section-y-padding {padding-top: 80px; padding-bottom: 80px;}
+/*Custom Spacing END*/
+
+ul {list-style-image: url(imgs/heart-placeholder.svg);}
 
 #hero-banner {height: 400px;}
 
@@ -34,3 +44,5 @@ h6 {font-size: 20px; line-height: 28px;}
     height: 250px; 
     width: 100%;
 }
+
+.project-objective-list img {margin-top: -3px;}
